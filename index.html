@@ -1,0 +1,191 @@
+<!doctype html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tirupati Temples</title>
+    <link rel="stylesheet" href="css/index.css" />
+  </head>
+  <body class="back-ground">
+    <div>
+      <header class="heading">WELCOME TO TIRUPATI TEMPLES</header>
+      <!--main page heading-->
+    </div>
+    <!--search box-->
+    <div class="top-bar">
+      <div class="search-area">
+        <input
+          type="text"
+          id="searchBox"
+          placeholder="Search temples..."
+          onkeyup="handleEnter(event)"
+        />
+        <!--search button-->
+        <button id="searchBtn" onclick="searchTemple()">Search</button>
+      </div>
+
+      <!--about-->
+      <div class="nav-links">
+        <span>|</span>
+        <span>
+          <a href="../htmlfiles/about.html">About</a>
+        </span>
+        <span>|</span>
+        <span><a href="../htmlfiles/gallery.html">Gallery</a></span>
+        <span>|</span>
+        <span><a href="../htmlfiles/feedback.html">Feedback</a></span>
+        <span>|</span>
+      </div>
+    </div>
+    <!--home page image-->
+    <div class="main">
+      <img
+        src="../images/mainimage.png"
+        alt="Tirupati Temples"
+        class="top-image"
+      />
+      <!--home page content-->
+      <div class="content">
+        <p class="body">
+          Tirumala and Tirupati are famous pilgrimage places in Andhra Pradesh,
+          India. Tirumala is located on the green Seshachalam Hills and is
+          surrounded by forests, fresh air, and beautiful nature. The calm
+          environment gives peace to both the mind and soul. The main attraction
+          of Tirumala is the Sri Venkateswara Temple, dedicated to Lord
+          Venkateswara. Every day, thousands of devotees visit the temple to
+          pray and seek blessings. People believe that the Lord fulfills true
+          wishes, which makes this temple very special.
+        </p>
+      </div>
+    </div>
+
+    <hr />
+
+    <!--temples in tirumala-->
+    <div class="temple-section">
+      <a href="../htmlfiles/varaha.html" class="temple-content">
+        <img src="../images/varaha1.png" alt="Varaha Swami Temple" />
+        <div class="temple">Varaha Swami Temple</div>
+      </a>
+      <a href="../htmlfiles/tirumala.html" class="temple-content">
+        <img
+          src="../images/tirumala2.png"
+          alt="Tirumala Venkateshwara Swami Temple"
+        />
+        <div class="temple">Tirumala Venkateshwara Swami Temple</div>
+      </a>
+    </div>
+    <!--sight seeings-->
+    <div class="header">Tirumala Sight Seeings</div>
+    <div class="temple-section">
+      <a href="../htmlfiles/papavinasanam.html" class="temple-content">
+        <img src="../images/papavinasanam.png" alt="Papavinasanam" />
+        <div class="temple">Papavinasanam</div>
+      </a>
+      <a href="../htmlfiles/akasaganga.html" class="temple-content">
+        <img src="../images/akasaganga.png" alt="Akasaganga" />
+        <div class="temple">Akasaganga</div>
+      </a>
+      <a href="../htmlfiles/japali.html" class="temple-content">
+        <img src="..\images\japali.png" alt="Japali" />
+        <div class="temple">Japali</div>
+      </a>
+      <a href="../htmlfiles/venugopala.html" class="temple-content">
+        <img src="../images/venugopala.png" alt="Venugopala Swami Temple" />
+        <div class="temple">Venugopala Swami Temple</div>
+      </a>
+      <a href="../htmlfiles/silathoranam.html" class="temple-content">
+        <img src="../images/silathoranam.png" alt="Silathoranam" />
+        <div class="temple">Silathoranam</div>
+      </a>
+      <a href="../htmlfiles/padhalu.html" class="temple-content">
+        <img src="../images/padalu.png" alt="Srivari Padhalu" />
+        <div class="temple">Srivari Padhalu</div>
+      </a>
+      <a href="../htmlfiles/museum.html" class="temple-content">
+        <img src="../images/museum.png" alt="Museum" />
+        <div class="temple">Museum</div>
+      </a>
+    </div>
+    <!--tirupati local temples-->
+    <div class="header">Tirupati Local Temples</div>
+    <div class="temple-section">
+      <a href="../htmlfiles/padmavathi.html" class="temple-content">
+        <img src="../images/padmavathi.png" alt="Padmavathi Ammavaari Temple" />
+        <div class="temple">Padmavathi Ammavaari Temple</div>
+      </a>
+      <a href="../htmlfiles/kapilatheertham.html" class="temple-content">
+        <img
+          src="../images/kapilatheertham.png"
+          alt="Kapileswara Swami Temple"
+        />
+        <div class="temple">Kapilatheertham</div>
+      </a>
+      <a href="../htmlfiles/iskcon.html" class="temple-content">
+        <img src="../images/iskcon.png" alt="Iskcon Temple" />
+        <div class="temple">Iskcon Temple</div>
+      </a>
+      <a href="../htmlfiles/kodhanda.html" class="temple-content">
+        <img src="../images/kodhanda1.png" alt="Kodhandarama Swami Temple" />
+        <div class="temple">Kodhandarama Swami Temple</div>
+      </a>
+      <a href="../htmlfiles/govindharaja.html" class="temple-content">
+        <img src="../images/govindharaja.png" alt="Govindharaja Swami Temple" />
+        <div class="temple">Govindharaja Swami Temple</div>
+      </a>
+    </div>
+    <!--50km radius-->
+    <div class="header">Temples in Tirupati Outskirts Within 50km Radius</div>
+    <div class="temple-section">
+      <a href="../htmlfiles/kalyana.html" class="temple-content">
+        <img src="../images/srinivasa.png" alt="Srinivasa Mangapuram" />
+        <div class="temple">Srinivasa Mangapuram</div>
+      </a>
+      <a href="../htmlfiles/lalitha.html" class="temple-content">
+        <img src="../images/lalitha.png" alt="Lalitha Peetam" />
+        <div class="temple">Lalitha Peetam</div>
+      </a>
+      <a href="../htmlfiles/mukkoti.html" class="temple-content">
+        <img src="../images/mukkoti.png" alt="Mukkoti" />
+        <div class="temple">Mukkoti</div>
+      </a>
+      <a href="../htmlfiles/vakulamatha.html" class="temple-content">
+        <img src="../images/vakulamatha.png" alt="Vakulamatha Temple" />
+        <div class="temple">Vakulamatha Temple</div>
+      </a>
+      <a href="../htmlfiles/jain.html" class="temple-content">
+        <img src="../images/jain.png" alt="Jain Temple" />
+        <div class="temple">Jain Temple</div>
+      </a>
+      <a href="../htmlfiles/varahi.html" class="temple-content">
+        <img src="../images/varahi.png" alt="Varahi Ammavaari Temple" />
+        <div class="temple">Varahi Ammavaari Temple</div>
+      </a>
+      <a href="../htmlfiles/appalayagunta.html" class="temple-content">
+        <img src="../images/appalayagunta.png" alt="Appalayagunta" />
+        <div class="temple">Appalayagunta</div>
+      </a>
+      <a href="../htmlfiles/gudimallam.html" class="temple-content">
+        <img src="../images/gudimallam1.png" alt="Gudimallam" />
+        <div class="temple">Gudimallam</div>
+      </a>
+      <a href="../htmlfiles/thondamanadu.html" class="temple-content">
+        <img src="../images/thondamanadu.png" alt="Thondamanadu" />
+        <div class="temple">Thondamanadu</div>
+      </a>
+      <a href="../htmlfiles/kalahasthi.html" class="temple-content">
+        <img src="../images/kalahasthi.png" alt="Kalahastheeswara Temple" />
+        <div class="temple">Kalahasthi Temple</div>
+      </a>
+    </div>
+    <!--75km radius-->
+    <div class="header">Temples in Tirupati Outskirts Within 75km Radius</div>
+    <div class="temple-section">
+      <a href="../htmlfiles/kanipakam.html" class="temple-content">
+        <img src="../images/kanipakam.png" alt="Kanipakam Temple" />
+        <div class="temple">Kanipakam Temple</div>
+      </a>
+    </div>
+    <!--js code for search-->
+    <script src="../script/search.js"></script>
+  </body>
+</html>
