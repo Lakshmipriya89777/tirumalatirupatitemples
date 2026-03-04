@@ -1,5 +1,4 @@
-<<<<<<< HEAD
-.section {
+section {
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 40px;
@@ -23,30 +22,4 @@
 
 hr {
     margin: 40px 0;
-=======
-.section {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 40px;
-    align-items: start;
-    margin: 50px 0;
-}
-
-.reverse .image-box {
-    order: 2;
-}
-
-.reverse .text-box {
-    order: 1;
-}
-
-.image-box img {
-    width: 100%;
-    height: auto;
-    border-radius: 10px;
-}
-
-hr {
-    margin: 40px 0;
->>>>>>> 64e9530ca4be6a3b6e2323644518346eb52f6325
 }
