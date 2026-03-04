@@ -4,7 +4,6 @@ section {
     gap: 40px;
     align-items: start;
     margin: 50px 0;
-    font-size: 20px;
 }
 
 .reverse .image-box {
@@ -13,11 +12,10 @@ section {
 
 .reverse .text-box {
     order: 1;
-    font-size: 20px;
 }
 
 .image-box img {
-    width: 50%;
+    width: 100%;
     height: auto;
     border-radius: 10px;
 }
